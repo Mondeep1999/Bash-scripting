@@ -14,11 +14,11 @@ do
        echo $n
   fi
     sum=$( expr $sum + $n)
-# done
-# echo $sum
-# avg=$( expr $sum / $num)
-# echo $avg
-# rm -f time.txt
+done
+echo $sum
+avg=$( expr $sum / $num)
+echo $avg
+rm -f time.txt
 
 #------------------------------------------------------------------------------------------------
 rm -f time.txt
